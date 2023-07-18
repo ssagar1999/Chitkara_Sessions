@@ -10,6 +10,34 @@ ul{
     list-style-type:  lower-greek; 
 }
 
-ol{
+/* ol{
     list-style-type:  lower-greek; 
+} */
+
+span{
+    width: 500px;
+    background-color: blue;
+}
+
+img{
+    width: 500px;
+}
+
+.sheet{
+    background-image: url(img2.jpg);
+    background-position: center;
+}
+
+#chitkara{
+    background-color: blue;
+}
+
+.someclass{
+    color: red;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: brown;
+    border: 2px solid pink;
+    padding: 20px;
+
 }
