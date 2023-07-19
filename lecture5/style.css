@@ -1,0 +1,120 @@
+.boxmodel{
+    width: 250px;
+    box-sizing: border-box;
+    height: 150px;
+    border: 10px solid green;
+    background-color: palevioletred;
+    padding: 30px;
+
+}
+
+.newbox{
+    width: 250px;
+    box-sizing: border-box;
+    height: 150px;
+    border: 10px solid green;
+    background-color: palevioletred;
+    padding: 30px;
+
+}
+
+.flx{
+  background-color: bisque;
+  border: 1px solid red;
+  height: 150px;
+  display: flex;
+  width: 150px;
+
+}
+
+.flx div{
+    flex: 1;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+
+
+}
+
+.child{
+    background-color: green;
+    flex: 1;
+    border: 1px solid red;
+   
+}
+
+.container{
+    width: 200px;
+    height: 120px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    display: flex;
+}
+
+.left-container{
+
+    flex: 1;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border: 1px solid rgb(0, 8, 1);
+    display:flex
+
+}
+.left-container div{
+    flex: 1;
+    border: 1px solid red;
+
+}
+.right-container div{
+    flex: 1;
+    border: 1px solid red;
+
+}
+
+.right-container{
+
+      flex: 1;
+      flex-direction: column;
+    background-color: antiquewhite;
+    border: 1px solid rgb(0, 8, 1);
+    display: flex;
+
+}
+
+.parent-div{
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-div div{
+border: 1px solid red;
+flex: 1;
+width: 33%;
+
+
+}
+
+.parent-div div:nth-child(2){
+    align-self: center;
+}
+.parent-div div:nth-child(3){
+    align-self: end;
+}
+
+
+
+
+
