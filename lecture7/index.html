@@ -4,10 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+  <style>
+    .container{
+        display: grid;
+        border: 1px solid red;
+        background-color: rgb(233, 227, 227);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        height: 300px;
+        gap: 10px;
+    }
+
+    .container div{
+        padding: 20px;
+        border: 1px solid green;
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 10px;
+        width: 960px;
+        margin: 0 auto;
+        grid-template-areas: "header header header header" 
+                             "left1 . rt rt" 
+                             "left2 . rt rt" 
+                             "btm btm btm btm"
+                             "btm btm btm btm"
+                             "footer footer footer footer"
+    }
+
+    .content div{
+        background-color: aquamarine;
+        padding: 30px;
+    }
+    .child-1{
+        grid-area: header;
+    }
+    .child-2{
+        grid-area: rt;
+    }
+    .child-3{
+        grid-area: left1;
+    }
+    .child-4{
+        grid-area: left2;
+    }
+    .child-5{
+        grid-area: btm;
+    }
+    .child-6{
+        grid-area: footer;
+    }
+  </style>
+
+
 </head>
 <body>
 
-    <h1>Grids</h1>
+ 
+
+  <div class="content">
+    <div class="child-1">header</div>
+    <div class="child-2">right</div>
+    <div class="child-3">left 1</div>
+    <div class="child-4">left 2</div>
+    <div class="child-5">ibtm</div>
+    <div class="child-6">footer</div>
+  </div>
     
 </body>
 </html>
