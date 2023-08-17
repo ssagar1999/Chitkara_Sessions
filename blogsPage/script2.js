@@ -1,0 +1,1 @@
+export const arr = [{'key':9000}]

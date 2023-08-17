@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+    margin: auto 0;
+}
+.navbar{
+    /* height: 3rem; */
+    /* padding-top: 15px; */
+    padding: 10px 0;
+    background-color: orange;
+   
+    
+}
+.navitem{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.nav-link{
+    display:flex;
+    gap: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50%;
+    margin: auto;
+    margin:  5% auto;
+    
+}
+
+.left .title{
+   margin-bottom: 20px;
+}
+.left img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.left p{
+    margin-bottom: 20px;
+}
+.left button{
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    /* color: white; */
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.left-container{
+    border: 1px solid black;
+    margin-bottom: 40px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow:  10px 10px 60px #bebebe,
+             -10px -10px 60px #ffffff;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+/*pop-up*/
+
+.pop-up{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+    border: 1px solid orange;
+    padding: 5% 10%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+nav button{
+    background-color: white;
+}
+button{
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    /* color: white; */
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+}
